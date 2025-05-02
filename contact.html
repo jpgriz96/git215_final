@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Grizzly Slopes | Contact</title>
+        <meta name="author" content="John Griswold">
+        <meta name="description" content="Learn more about the beautiful Grizzly Slopes alpine resort.">
+
+        <!-- FAVICON  -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Nokora:wght@100;300;400;700;900&family=Outfit:wght@100..900&family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+
+    <body>
+        <header>
+            <section>
+                <h1><a href="index.html">Grizzly Slopes</a></h1>
+    
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Accommodations</a></li>
+                        <li><a href="#" id="current-page">Contact</a></li>
+                    </ul>
+                </nav>
+            </section> 
+        </header>
+
+        <main>
+            <div id="contact">
+                <section id="info">
+                    <h2>Contact Us</h2>
+
+                    <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+
+                    <p>Required fields marked with a <span class="required">*</span></p>
+
+                    <img src="images/swiss-peak.jpg" alt="an image of a river running throw an alpine forest, with a mountain in the background" height="455" width="350">
+                </section>
+
+                <div id="form">
+                    <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                        <label for="my-name" id="name-label">Full Name<span class="required">*</span></label>
+                        <input type="text" name="my-name" id="my-name" required>
+
+                        <label for="my-email" id="email-label">Email Address<span class="required">*</span></label>
+                        <input type="email" name="my-email" id="my-email" required>
+
+                        <label for="my-phone" id="phone-label">Phone Number<span class="required">*</span></label>
+                        <input type="tel" name="my-phone" id="my-phone" required>
+
+                        <fieldset id="my-radio">
+                            <legend>Preferred Contact Method</legend>
+
+                            <input type="radio" name="contact-pref" id="pref-email" checked>
+                            <label for="pref-email">Email</label>
+                    
+                            <input type="radio" name="contact-pref" id="pref-phone">
+                            <label for="pref-phone">Phone</label>
+                        </fieldset>
+
+                        <label for="my-comments" id="comments-label">Comments<span class="required">*</span></label>
+                        <textarea name="my-comments" id="my-comments" required></textarea>
+
+                        <input type="submit" name="my-submit" id="my-submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Copyright &copy;2025 Grizzly Slopes</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+
+    </body>
+
+</html>
